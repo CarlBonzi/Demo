@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class MybatisSqlSessionFactoryConfiguration {
-    @Autowired
+/*    @Autowired
     @Qualifier("druidDataSource")
     DataSource dataSource;
 
@@ -35,6 +35,6 @@ public class MybatisSqlSessionFactoryConfiguration {
     @Bean
     SqlSessionTemplate sqlSessionTemplate() {
         return new SqlSessionTemplate(sqlSessionFactory());
-    }
+    }*/
 
 }
